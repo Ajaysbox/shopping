@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  selectionType:string = "recipe"
+  menuSelected(selection){
+    this.selectionType = selection;
+  }
 }
