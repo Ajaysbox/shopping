@@ -7,10 +7,10 @@ import {Recipe} from '../recipe.model';
 })
 export class RecipesListComponent implements OnInit {
   recipes:Recipe[]=[
-    new Recipe('A test1 recipe','this is a tasty recipe','https://static01.nyt.com/images/2015/08/14/dining/14ROASTEDSALMON/14ROASTEDSALMON-superJumbo.jpg'),
-    new Recipe('A test2 recipe','this is a tasty recipe','https://static01.nyt.com/images/2015/08/14/dining/14ROASTEDSALMON/14ROASTEDSALMON-superJumbo.jpg'),
-    new Recipe('A test3 recipe','this is a tasty recipe','https://static01.nyt.com/images/2015/08/14/dining/14ROASTEDSALMON/14ROASTEDSALMON-superJumbo.jpg'),
-    new Recipe('A test4 recipe','this is a tasty recipe','https://static01.nyt.com/images/2015/08/14/dining/14ROASTEDSALMON/14ROASTEDSALMON-superJumbo.jpg')
+    new Recipe('Recipe name 1','Recipe description 1','https://static01.nyt.com/images/2015/08/14/dining/14ROASTEDSALMON/14ROASTEDSALMON-superJumbo.jpg'),
+    new Recipe('Recipe name 2','Recipe description 2','https://static01.nyt.com/images/2015/08/14/dining/14ROASTEDSALMON/14ROASTEDSALMON-superJumbo.jpg'),
+    new Recipe('Recipe name 3','Recipe description 3','https://static01.nyt.com/images/2015/08/14/dining/14ROASTEDSALMON/14ROASTEDSALMON-superJumbo.jpg'),
+    new Recipe('Recipe name 4','Recipe description 4','https://static01.nyt.com/images/2015/08/14/dining/14ROASTEDSALMON/14ROASTEDSALMON-superJumbo.jpg')
   ];
   constructor() { }
 
