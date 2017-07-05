@@ -15,5 +15,13 @@ export class ShoppingListComponent implements OnInit {
 
   ngOnInit() {
   }
-
+addNewIngredient(newIng:Ingredient){
+  console.log("ïngredient added to Shopping Edit component "+newIng.name+" "+newIng.amount  )
+  this.ingredients.push(newIng)
+}
+deleteIngredient(){
+  console.log("in delete parent component")
+  console.log(this.ingredients.slice(this.ingredients.length-1,1));
+  //this.ingredients.slice(this.ingredients.length-1,0)
+}
 }
